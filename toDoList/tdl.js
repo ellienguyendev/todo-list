@@ -11,7 +11,7 @@ function addToList(text){
   let list = document.getElementById("myList")
   let item = document.createElement("li")
   item.innerText = text;
-  myList.appendChild(item)
+  list.appendChild(item)
   item.setAttribute("class", "listItem")
   item.onclick=completedTasks
   return item
